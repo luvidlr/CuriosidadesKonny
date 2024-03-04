@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+body{
+    background-color: white;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+}
+
+header img{
+    display: flex;
+    width: 250px;
+}
+
+.btn-group{
+display: flex;
+width: 100%;
+background-color: white;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    font-family: "Cormorant Upright", serif;
+}
+
+h2{
+    font-family: "Dancing Script", cursive;
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    display: flex;
+    width: 100%;
+}
+
+.infogeneral{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin-left: 10%;
+}
+
+/*revisar todo lo que está dentro de las tablas antes de hacerle algun cambio a esto*/
+
+table{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 10px 0px 10px 10%;
+}
+
+table img{
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    padding: 10px 0px 10px 50px;
+}
+
+table p{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    padding: 10px 0px 10px 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.botón-más{
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+}
+
+.conocenos{
+    background-image: url(./imagenes/59b0bf.png);
+    color: black;
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+    margin: 0%;
+    padding-top: 50px;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.presentación{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin: 10px 0px 10px 10%;
+
+}
+
+.Servicio1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.Servicio1 img{
+    display: flex;
+    width: 60%;
+}
+
+.contenedor{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    transform: translate(-49%, -49%); 
+}
+.mapa{
+    position: absolute;
+    top: 115%;
+    left: 50%;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    transform: translate(-49%, -49%); 
+}
+
+footer{
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(103, 103, 103);
+}
